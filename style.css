@@ -14,36 +14,31 @@ ul li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 9% 9%;
   text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: #097969;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color: #89CFF0;
   display: flex;
   justify-content: center;
 }
 
-ul li a.active {
-  background-color: #04AA6D;
-}
-
-
 ul li {
   float: left;
-  border-right: 1px solid #bbbbbb;
+  border-right: 1px solid black;
 }
-
 ul li:last-child {
   border-right: none;
 }
+
 
 body {
 background-image: url("images/Background.png");
