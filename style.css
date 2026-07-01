@@ -1,25 +1,18 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #89CFF0 ;
-}
-
-ul li {
-  float: left;
+ul li a {
+   float: left;
 }
 
 ul li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 9% 9%;
+  padding: 20px 20px;
   text-decoration: none;
 }
+}
 
-ul li a:hover {
-  background-color: #097969;
+ul li a:hover:not(.active) {
+  background-color: #111111;
 }
 
 ul {
@@ -38,11 +31,24 @@ ul li {
 ul li:last-child {
   border-right: none;
 }
-
+ul li a:hover {
+  background-color: #50C878;
+}
 
 body {
 background-image: url("images/Background.png");
 background-size: 100% 100%;
 background-repeat:no-repeat;
 background-attachment: fixed
+}
+
+
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
