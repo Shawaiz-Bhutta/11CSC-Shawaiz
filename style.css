@@ -9,10 +9,10 @@ ul li a {
   padding: 20px 20px;
   text-decoration: none;
 }
-}
+
 
 ul li a:hover:not(.active) {
-  background-color: #111111;
+  background-color: #32CD32;
 }
 
 ul {
@@ -26,8 +26,8 @@ ul {
 
 ul li {
   float: left;
-  border-right: 1px solid black;
-}
+  border-right: 1px solid black;}
+
 ul li:last-child {
   border-right: none;
 }
@@ -39,16 +39,13 @@ body {
 background-image: url("images/Background.png");
 background-size: 100% 100%;
 background-repeat:no-repeat;
-background-attachment: fixed
+background-attachment: fixed;
 }
-
-
-}
-
 
 .centered {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 48.4%;
   transform: translate(-50%, -50%);
+  font-size: 21px;
 }
