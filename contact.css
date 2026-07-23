@@ -1,0 +1,128 @@
+ul li a {
+   float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+
+ul li a:hover:not(.active) {
+  background-color: #32CD32;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #89CFF0;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  float: left;
+  border-right: 1px solid black;}
+
+ul li:last-child {
+  border-right: none;
+}
+ul li a:hover {
+  background-color: #50C878;
+}
+
+body {
+background-image: url("images/Contact.png");
+background-size: 100% 100%;
+background-repeat:no-repeat;
+background-attachment: fixed;
+}
+
+.Contact{
+  position: absolute;
+  top: 69%;
+  left: 89%;
+  transform: translate(-50%, -50%);
+  font-size:25px;
+}
+
+
+
+
+.Contact a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+
+.Contact1{
+  position: absolute;
+  top: 26%;
+  left: 90.4%;
+  transform: translate(-50%, -50%);
+  font-size:21px;
+}
+
+
+
+.contact1 a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
