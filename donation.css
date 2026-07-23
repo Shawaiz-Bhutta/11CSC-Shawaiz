@@ -34,3 +34,42 @@ ul li:last-child {
 ul li a:hover {
   background-color: #50C878;
 }
+
+body {
+background-image: url("images/Contact.png");
+background-size: 100% 100%;
+background-repeat:no-repeat;
+background-attachment: fixed;
+}
+
+
+
+
+
+.centered {
+  position: absolute;
+  top: 59%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+.Donate{
+  position: absolute;
+  top: 59%;
+  left: 53.5%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+
+
+
+
+
+.donate a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
