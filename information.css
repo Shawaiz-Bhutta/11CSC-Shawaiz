@@ -51,14 +51,10 @@ background-attachment: fixed;
 
 .p1 {
   position: absolute;
-  top: 40%;
-  left:61%;
+  top: 53%;
+  left:74.2%;
   transform: translate(-50%, -50%);
   font-size: 20px;
 
-.p2 {
-  position: absolute;
-  top: 40%;
-  left:70%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
+
+}
